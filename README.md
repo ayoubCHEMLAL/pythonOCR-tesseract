@@ -17,7 +17,9 @@ sudo pip install pytesseract
 We can use the command line utility or use the Tesseract API to integrate it in our C++ and Python application. In the very basic usage, we specify the following
 
 **1. Input filename:** We use image.jpg in the examples below.
+
 **2. OCR language:** The language in our basic examples is set to English (eng). On the command line and pytesseract, it is specified using the `-l` option.
+
 **3. OCR Engine Mode (oem):** Tesseract 4 has two OCR engines — 1) Legacy Tesseract engine 2) LSTM engine. There are four modes of operation chosen using the `--oem` option.
 
 ```
